@@ -154,18 +154,53 @@ export const resumeData = {
   ],
   projects: [
     {
-      name: "API de E-commerce em Go",
-      description: "Projeto pessoal de uma API RESTful completa para um e-commerce, utilizando Go, Gin Gonic, PostgreSQL e Docker.",
-      stack: ["Go", "Gin Gonic", "PostgreSQL", "Docker"],
-      githubUrl: "https://github.com/yourusername/go-ecommerce-api", // Link para o repo
+      name: "E-Coleta",
+      description: "O Ecoleta é uma aplicação Web e Mobile para ajudar pessoas a encontrarem pontos de coleta para reciclagem em sua cidade ou região.",
+      stack: ["Typescript", "Node.js", "React", "React Native", "Expo", "PostgreSQL", "Knex", "Express", "Insomnia"],
+      githubUrl: "https://github.com/chmenegatti/nlw01-ecoleta",
+      liveUrl: "", // Exemplo
+    },
+    {
+      name: "Robô que gera vídeos e publica no YouTube",
+      description: "Robô que gera vídeos e publica no YouTube utilizando IA.",
+      stack: ["Node.js", "After Effects", "FFmpeg", "Watson", "Wikipedia"],
+      githubUrl: "",
+      liveUrl: "", // Exemplo
+    },
+    {
+      name: "Api de Gestão de Ativos de Obra - Cataguá Construtora",
+      description: "Projeto de gestão de ativos de obra para uma empresa de construção.",
+      stack: ["PHP", "MariaDb", "HTML", "CSS", "JavaScript", "Ajax"],
+      githubUrl: "",
+      liveUrl: "", // Exemplo
+    },
+    {
+      name: "Api de Gestão de Ficha de Inspeção de Serviços - Supricel Construtora",
+      description: "Projeto de gestão de ficha de inspeção de serviços para uma empresa de construção.",
+      stack: ["PHP", "MariaDb", "HTML", "CSS", "JavaScript", "Ajax"],
+      githubUrl: "",
+      liveUrl: "", // Exemplo
+    },
+    {
+      name: "API de Gestão de Compras - Tropcons Construtora",
+      description: "Projeto de gestão de compras para uma empresa de construção.",
+      stack: ["PHP", "MariaDb", "HTML", "CSS", "JavaScript", "Ajax"],
+      githubUrl: "", // Link para o repo
       liveUrl: null, // Link para a demo online, se houver
     },
     {
-      name: "Chat em Tempo Real com Node.js",
-      description: "Aplicação de chat usando Node.js, Socket.IO e React para o frontend.",
-      stack: ["Node.js", "Express", "Socket.IO", "React", "MongoDB"],
-      githubUrl: "https://github.com/yourusername/nodejs-realtime-chat",
-      liveUrl: "https://link-para-demo.com", // Exemplo
+      name: "Api de Gestão de Equipamentos - Tropcons Construtora",
+      description: "Projeto de gestão de equipamentos para uma empresa de construção.",
+      stack: ["PHP", "MariaDb", "HTML", "CSS", "JavaScript", "Ajax"],
+      githubUrl: "",
+      liveUrl: "", // Exemplo
+    },
+    {
+      name: "Api de Gestão de Treinamentos - Tropcons Construtora",
+      description: "Projeto de gestão de equipamentos para uma empresa de construção.",
+      stack: ["PHP", "MariaDb", "HTML", "CSS", "JavaScript", "Ajax"],
+      githubUrl: "",
+      liveUrl: "", // Exemplo
     },
     // Adicione mais projetos
   ],

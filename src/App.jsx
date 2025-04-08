@@ -84,7 +84,7 @@ function App() {
           © {new Date().getFullYear()} {resumeData.name}. Todos os direitos reservados.
           {/* Opcional: Link para o código fonte */}
           {' | '}
-          <Link href="https://github.com/yourusername/meu-curriculo-spa" isExternal>
+          <Link href="https://github.com/chmenegatti/chmenegatti.github.io" isExternal>
             Código Fonte no GitHub
           </Link>
         </Text>

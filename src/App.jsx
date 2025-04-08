@@ -36,7 +36,7 @@ function App() {
         <title>{resumeData.name} - {resumeData.title}</title>
         <meta name="description" content={`Currículo online de ${resumeData.name}, ${resumeData.title}. Habilidades em ${resumeData.skills.main.map(s=>s.name).join(', ')} e mais.`} />
         {/* Adicione outras meta tags se necessário (keywords, author, etc.) */}
-        <link rel="canonical" href="URL_DO_SEU_SITE_DEPLOYADO" /> {/* Atualizar após deploy */}
+        <link rel="canonical" href="https://chmenegatti.github.io/" /> {/* Atualizar após deploy */}
       </Helmet>
 
       {/* Botão Dark Mode posicionado */}

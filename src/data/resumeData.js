@@ -5,7 +5,7 @@ import { SiGo, SiNodedotjs, SiPhp, SiPython, SiCss3, SiReact, SiHtml5, SiShell, 
 export const resumeData = {
   name: "Cesar Menegatti",
   title: "Especialista II de Desenvolvimento Cloud",
-  profilePic: "/path/to/your/professional-photo.jpg", // Opcional: Coloque a foto em `public/` ou `src/assets/` e ajuste o path
+  profilePic: "cesar.jpg", // Opcional: Coloque a foto em `public/` ou `src/assets/` e ajuste o path
   socialLinks: [
     { name: "LinkedIn", url: "https://www.linkedin.com/in/cesar-menegatti-54630b125/", icon: FaLinkedin },
     { name: "GitHub", url: "https://github.com/chmenegatti/chmenegatti", icon: FaGithub },

@@ -1,6 +1,15 @@
 {
   "name": "chmenegatti.github.io",
   "private": true,
+  "homepage": "https://chmenegatti.github.io",
+  "description": "My personal website",
+  "author": "Carlos Menegatti",
+  "license": "MIT",
+  "keywords": [
+    "website",
+    "personal",
+    "portfolio"
+  ],
   "version": "0.0.0",
   "type": "module",
   "scripts": {

@@ -62,12 +62,28 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+This repository is configured to publish automatically to GitHub Pages.
 
-## Can I connect a custom domain to my Lovable project?
+1. Push your changes to the `main` branch.
+2. GitHub Actions will build the app and publish the generated files to the `gh-pages` branch.
+3. In the repository settings, open Pages and set the source to **Deploy from a branch** using the `gh-pages` branch and the `/ (root)` folder.
 
-Yes, you can!
+## Custom domain
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+The site is configured to use `www.cesarmenegatti.com`.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Configure your DNS like this:
+
+- `www` -> `CNAME` -> `chmenegatti.github.io`
+- `@` -> `A` -> `185.199.108.153`
+- `@` -> `A` -> `185.199.109.153`
+- `@` -> `A` -> `185.199.110.153`
+- `@` -> `A` -> `185.199.111.153`
+
+After that:
+
+1. In GitHub, open **Settings > Pages**.
+2. Set the custom domain to `www.cesarmenegatti.com`.
+3. Enable **Enforce HTTPS** after the DNS check passes.
+
+The workflow also publishes a `404.html` fallback so direct navigation keeps working with the React router on GitHub Pages.

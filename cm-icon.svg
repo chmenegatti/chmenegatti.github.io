@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">CM monogram icon</title>
+  <desc id="desc">Modern rounded-square icon with the initials CM.</desc>
+  <defs>
+    <linearGradient id="bg" x1="36" y1="28" x2="220" y2="228" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a" />
+      <stop offset="0.52" stop-color="#111827" />
+      <stop offset="1" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="stroke" x1="66" y1="62" x2="194" y2="194" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8fafc" />
+      <stop offset="0.55" stop-color="#67e8f9" />
+      <stop offset="1" stop-color="#22d3ee" />
+    </linearGradient>
+    <linearGradient id="glow" x1="72" y1="56" x2="184" y2="192" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#020617" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <rect x="16" y="16" width="224" height="224" rx="56" fill="url(#bg)" />
+  <path d="M54 86c12-29 39-48 74-48 24 0 44 7 60 22l-18 21c-11-10-24-15-41-15-24 0-42 13-50 35-7 19-4 41 7 57 10 15 27 23 46 23 15 0 29-4 41-14l17 22c-16 14-37 21-60 21-36 0-64-18-76-47-11-25-10-54 0-77Z" fill="url(#glow)" opacity="0.9" />
+  <g filter="url(#shadow)" fill="none" stroke="url(#stroke)" stroke-linecap="round" stroke-linejoin="round" stroke-width="17">
+    <path d="M100 80c-10-8-22-12-35-12-33 0-57 26-57 60s24 60 57 60c13 0 25-4 35-12" />
+    <path d="M118 180V76l42 53 42-53v104" />
+  </g>
+  <path d="M32 96c8-31 31-55 60-67" stroke="#ffffff" stroke-opacity="0.1" stroke-width="8" stroke-linecap="round" />
+  <circle cx="190" cy="70" r="18" fill="#ffffff" fill-opacity="0.08" />
+  <circle cx="206" cy="186" r="10" fill="#67e8f9" fill-opacity="0.22" />
+</svg>

@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/go-na-pratica",
+      "destination": "https://book-page-gray.vercel.app/go-na-pratica"
+    },
+    {
+      "source": "/go-na-pratica/",
+      "destination": "https://book-page-gray.vercel.app/go-na-pratica"
+    },
+    {
+      "source": "/go-na-pratica/:path*",
+      "destination": "https://book-page-gray.vercel.app/go-na-pratica/:path*"
+    }
+  ]
+}

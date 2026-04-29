@@ -25,6 +25,18 @@ const projects: Project[] = [
     github: "https://github.com/chmenegatti/nlw01-ecoleta",
   },
   {
+    title: "Jogo da Forca Lúdico",
+    description: "Jogo da forca com proposta lúdica e interface web interativa.",
+    tags: ["ReactJS", "TypeScript", "Jogo Web"],
+    link: "https://balaodaforca.vercel.app/",
+  },
+  {
+    title: "Bolão da Copa 2026",
+    description: "Plataforma de bolão da Copa 2026 desenvolvida com Next.js e publicada em infraestrutura com MetalLB e Kubernetes.",
+    tags: ["Next.js", "MetalLB", "Kubernetes"],
+    link: "https://bolao.cesarmenegatti.com/",
+  },
+  {
     title: "Robô YouTube com IA",
     description: "Robô que gera vídeos e publica no YouTube utilizando Inteligência Artificial.",
     tags: ["Node.js", "After Effects", "FFmpeg", "Watson", "Wikipedia"],
@@ -106,15 +118,19 @@ const ProjectsSection = () => {
                 </div>
               </div>
               <p className="text-sm text-muted-foreground mb-4 leading-relaxed">{project.description}</p>
-              {project.featured && (
+              {project.link && (
                 <a
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded-lg text-sm font-semibold hover:shadow-[0_0_16px_hsl(142_72%_50%/0.4)] transition-all mb-4"
+                  className={`inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold transition-all mb-4 ${
+                    project.featured
+                      ? "bg-primary text-primary-foreground hover:shadow-[0_0_16px_hsl(142_72%_50%/0.4)]"
+                      : "border border-primary/30 text-primary hover:bg-primary/10"
+                  }`}
                 >
                   <ExternalLink size={14} />
-                  Ver mais
+                  Ver site
                 </a>
               )}
               <div className="flex flex-wrap gap-2">
